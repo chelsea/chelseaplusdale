@@ -1,1 +1,12 @@
-theme: jekyll-theme-minimal
+title: Chelsea + Dale
+email: chelsea.robb@gmail.com
+url: "chelseaplusdale.com"
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
