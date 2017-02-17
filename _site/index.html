@@ -2,61 +2,59 @@
 <html lang="en">
   <head>
     <title>Chelsea + Dale</title>
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
+    <div class="wide">
+    </div>
     <div class="container">
       <div class="row">
-        <div class="home">
+        <h2>Details</h2>
 
-          <h1 class="page-heading">Details</h1>
+        <p>When: November 25, 2017 (exact times TBD)</p>
+        <p>Where: NSW, Australia</p>
 
-          <ul class="post-list">
-            <li>When: November 25, 2017</li>
-            <li>Where: NSW, Australia</li>
-          </ul>
-
-          <h2>Getting here</h2>
-          <h4>International</h4>
-          <div class="detail-block">
-            There are three main options for flights, you can fly to Sydney or Melbourne and rent a car (or take a very long busy trip) to drive around 7 hours to our place.
-            Alternatively, you can fly to Canberra from Sydney or Melbourne and have a 3 hour drive to our place. A more expensive but time saving option is to fly into
-            Merimbula with <a href="http://rex.com.au">Rex</a>, however this is small regional airline with tight baggage limits, limited schedule, and expensive flights.
-          </div>
-
-          <h4>From Australia</h4>
-          <div class="detail-block">
-            For flights (Perth is pretty much international!), see the details for international visitors.<br/>
-            Driving from Sydney you can take the scenic, shorter, but more variable (more traffic hold ups, speed limits drop to 50km/h) coast road, or head inland along the Hume via Canberra. The Hume will be a bit longer, but a more straightforward drive. We'd recommend taking the scenic coast road if you haven't before.
-            <br/>
-            We'll be making trips in and out of Bega and Merimbula/Pambula leading up to the wedding and should be able to co-ordinate pick ups from buses or the airpor there as needed.
-          </div>
-        </div>
-
-        <h2>Accommodation</h2>
+        <h2>Getting here</h2>
+        <h4>International</h4>
         <div class="detail-block">
-          We'll be doing our best to arrange a bus, shuttle, or some other form of transport for guests on the day of the wedding from/to Merimbula, as the accommodation options there are much better than in Pambula as are the general attractions for out of towners.<br/>
-          We'll also have an area for camping on the property, however we ask that aside from the wedding day you come prepared to be self sufficient with food, water, etc.
+          There are three main options for flights, you can fly to Sydney or Melbourne and rent a car (or take a very long busy trip) to drive around 7 hours to our place.
+          Alternatively, you can fly to Canberra from Sydney or Melbourne and have a 3 hour drive to our place. A more expensive but time saving option is to fly into
+          Merimbula with <a href="http://rex.com.au">Rex</a>, however this is small regional airline with tight baggage limits, limited schedule, and expensive flights.
         </div>
 
-        <h2>On the day</h2>
+        <h4>From Australia</h4>
         <div class="detail-block">
-          Our wedding is going to be on the informal side, and outdoors. We'll have a marquee tent for some shade and general shelter, the weather in November is typically quite nice during the day with possibly a cooler evening.
+          For flights (Perth is pretty much international!), see the details for international visitors.<br/>
+          Driving from Sydney you can take the scenic, shorter, but more variable (more traffic hold ups, speed limits drop to 50km/h) coast road, or head inland along the Hume via Canberra. The Hume will be a bit longer, but a more straightforward drive. We'd recommend taking the scenic coast road if you haven't before.
           <br/>
-          Events will kick off around lunch time, with the ceremony scheduled for some time that day.
-          <br/>
-          We'll be roasting a pig on a spit (maybe also a lamb) for the meals, please let us know in advance if this is an issue and we can sort out alternative mains as needed.
+          We'll be making trips in and out of Bega and Merimbula/Pambula leading up to the wedding and should be able to co-ordinate pick ups from buses or the airpor there as needed.
         </div>
 
-        <h2>RSVP Online</h2>
-        Sorry, we couldn't source stamps for returning RSVPs from Canada, if you'd prefer to RSVP online please fill out this form for us:
+      <h2>Accommodation</h2>
+      <div class="detail-block">
+        We'll be doing our best to arrange a bus, shuttle, or some other form of transport for guests on the day of the wedding from/to Merimbula, as the accommodation options there are much better than in Pambula as are the general attractions for out of towners.<br/>
+        We'll also have an area for camping on the property, however we ask that aside from the wedding day you come prepared to be self sufficient with food, water, etc.
+      </div>
 
+      <h2>On the day</h2>
+      <div class="detail-block">
+        Our wedding is going to be on the informal side, and outdoors. We'll have a marquee tent for some shade and general shelter, the weather in November is typically quite nice during the day with possibly a cooler evening.
+        <br/>
+        Events will kick off around lunch time, with the ceremony scheduled for some time that day.
+        <br/>
+        We'll be roasting a pig on a spit (maybe also a lamb) for the meals, please let us know in advance if this is an issue and we can sort out alternative mains as needed.
+      </div>
+
+      <h2>RSVP Online</h2>
+      Sorry, we couldn't source stamps for returning RSVPs from Canada, if you'd prefer to RSVP online please fill out this form for us:
+
+      <div class="">
         <form action="https://formspree.io/chelsea.robb@gmail.com" method="POST" class="form-horizontal">
           <div class="form-group">
             <label for="guest_names" class="col-sm-2 control-label">Name(s)</label>
             <div class="col-sm-10">
-              <input type="text" name="guest_names" class="form-control" >
+              <input type="text" name="guest_names" class="form-control" required >
             </div>
           </div>
 
@@ -64,7 +62,7 @@
             <div class="col-sm-2"></div>
             <div class="radio col-sm-10">
               <label>
-                <input type="radio" name="attending" value="yes" />
+                <input type="radio" name="attending" value="yes" required />
                 Delightfully accepts
               </label>
             </div>
@@ -92,5 +90,6 @@
         </form>
       </div>
     </div>
+  </div>
   </body>
 </html>
